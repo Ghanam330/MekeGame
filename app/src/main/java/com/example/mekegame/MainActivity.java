@@ -264,7 +264,7 @@ public class MainActivity extends AppCompatActivity {
 
             score += 1;
             foodX = -10;
-            sound.CollectedSound();
+            sound.collectSound();
         }
 
 
@@ -278,7 +278,7 @@ public class MainActivity extends AppCompatActivity {
             coins++;
             score += 3;
             diamondX = -10;
-            sound.CollectedSound();
+            sound.collectSound();
         }
 
 
